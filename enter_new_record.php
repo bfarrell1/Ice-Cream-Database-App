@@ -131,9 +131,10 @@
 
 <input type="submit" value="Submit" class="btn btn-primary">
 </form>
+</div> 
 <div id="response">
 </div>
-</div> <!-- close container -->
+<!-- close container -->
 <script src="scripts/enter.js"></script>
 
 

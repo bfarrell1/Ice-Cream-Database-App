@@ -29,7 +29,9 @@ iceCreamform.onsubmit = (e) => {
         iceCream_form.style.display = 'none';
         response_content.innerHTML =
         "<p class='announce'>" + data + "</p>" +
-        "<p class='middle'><a href='enter_new_record.php'>Return to the form</a></p>";
+        "<p class='middle'><a href='enter_new_record.php'>Return to the form</a></p>" +
+        "<p class='middle'><a href='results_update.php'>View all results</a></p>";
+
     })
     .catch( (error) => {
         console.error('Error in fetch: ', error);
