@@ -14,7 +14,6 @@
 
 <p>Welcome to my ice cream parlor. First, take a Myer-Briggs personality test <a href="https://www.truity.com/test/type-finder-personality-test-new"> here </a>. Fill out the form below with your results and ice cream preferences!</p>
 <p> View full results <a href=results_update.php> here</a>.</p>
-<p> After you submit the form, refresh the page to bring you back to this page. </p>
 <form id="myform" method="post" action="" autocomplete="off">
 <div class="questions" id="question1">
   <p> Question #1: Extraverted or Introverted?
@@ -131,7 +130,7 @@
 
 <input type="submit" value="Submit" class="btn btn-primary">
 </form>
-</div> 
+</div>
 <div id="response">
 </div>
 <!-- close container -->
